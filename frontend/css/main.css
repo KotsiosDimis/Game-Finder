@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+.hero-section {
+    background-image: url('https://via.placeholder.com/1500x600'); /* Example background */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+.search-bar {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.btn-search {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+.btn-search:hover {
+    background-color: #0056b3;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#searchResults {
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    color: #333; /* Dark text color for better readability */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#searchResults .result-item {
+    margin-bottom: 15px;
+}
+
+#searchResults .result-item h5 {
+    color: #007bff; /* Blue color for the result title */
+}
